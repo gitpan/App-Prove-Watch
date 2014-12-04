@@ -1,0 +1,31 @@
+---
+abstract: 'Run tests whenever changes occur.'
+author:
+  - 'Chris Reinhardt <crein@cpan.org>'
+build_requires:
+  File::Spec: '0'
+  File::Temp: '0'
+  File::Touch: '0'
+  Test::Mock::Simple: '0'
+  Test::More: '0'
+  Test::Spec: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.025, CPAN::Meta::Converter version 2.142690'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: App-Prove-Watch
+requires:
+  App::Prove: '0'
+  File::Basename: '0'
+  Filesys::Notify::Simple: '0'
+  Getopt::Long: '0'
+  strict: '0'
+  warnings: '0'
+resources:
+  homepage: https://github.com/ctriv/perl-App-Prove-Watch
+  repository: https://github.com/ctriv/perl-App-Prove-Watch.git
+version: '0.1'
