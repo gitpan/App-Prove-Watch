@@ -1,5 +1,5 @@
 package App::Prove::Watch;
-$App::Prove::Watch::VERSION = '0.1';
+$App::Prove::Watch::VERSION = '0.2';
 
 use strict;
 use warnings;
@@ -16,7 +16,7 @@ App::Prove::Watch - Run tests whenever changes occur.
 
 =head1 VERSION
 
-version 0.1
+version 0.2
 
 =head1 SYNOPSIS
 
@@ -214,10 +214,6 @@ sub _get_notification_sub {
 =item *
 
 Ironically, for a TDD tool, there's not enough tests.
-
-=item *
-
-The C<provewatch> script needs documentation.
 
 =back
 

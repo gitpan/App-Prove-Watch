@@ -4,7 +4,7 @@ NAME
 
 VERSION
 
-    version 0.1
+    version 0.2
 
 SYNOPSIS
 
@@ -54,8 +54,6 @@ NOTIFICATIONS
 TODO
 
       * Ironically, for a TDD tool, there's not enough tests.
-
-      * The provewatch script needs documentation.
 
 AUTHORS
 
